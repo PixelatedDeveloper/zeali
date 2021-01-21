@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="{{@site.lang}}">
+
+<head>
+  <title>{{meta_title}}</title>
+  {{! Document Settings }}
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  {{! Responsive Meta Tags }}
+  <!-- own stylesheet for general stuff -->
+  <link rel="stylesheet" href="{{asset "css/style.css"}}">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  {{! Ghost outputs important style and meta data with this tag }}
+  {{ghost_head}}
+</head>
+
+<body>
+  <!-- main navigation -->
+  {{navigation}}
+  <main class="{{body_class}}">
+    <div class="container-fluid">
+
+      {{#is "tag"}}
+      <div class="tag_head_wrap">
+        {{#tag}}
+        <div class="tag_heading text-center">
+          <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
+          <h1 class="text-center tag-title">{{name}}</h1>
+          {{#if description}}<p class="tag-description">{{description}}</p>{{/if}}
+        </div>
+        {{/tag}}
+      </div>
+      {{/is}}
+
+      {{#is "author"}}
+      <div class="tag_head_wrap">
+        {{#author}}
+        <div class="tag_heading text-center">
+          <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
+          <h1 class="text-center tag-title">{{name}}</h1>
+          {{#if bio}}<p class="tag-description">{{bio}}</p>{{/if}}
+          {{#if twitter}}<a href="https://twitter.com/{{twitter}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-twt"><i class="fab fa-twitter-square"></i>Twitter</a>{{/if}}
+          {{#if facebook}}<a href="https://facebook.com/{{facebook}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-fb"><i class="fab fa-facebook-square"></i>Facebook</a>{{/if}}
+        </div>
+        {{/author}}
+      </div>
+      {{/is}}
+
+
+      {{#is "home"}}
+        {{> 'post/card-featured'}}
+      {{/is}}
+
+      <div class="row">
+
+        {{{body}}}
+
+      </div>
+        <footer class="page-footer">
+          {{> 'ui/footer'}}
+        </footer>
+    </div><!-- container fluid END! -->
+  </main>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;800&display=swap" rel="stylesheet"> 
+
+  <script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+      var container = image.closest('.kg-gallery-image');
+      var width = image.attributes.width.value;
+      var height = image.attributes.height.value;
+      var ratio = width / height;
+      container.style.flex = ratio + ' 1 0%';
+    })
+  </script>
+  {{ghost_foot}}
+</body>
+
+</html>
