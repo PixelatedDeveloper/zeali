@@ -31,6 +31,7 @@ html body {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+  background: white;
 }
 
 h1,
@@ -43,7 +44,7 @@ h6 {
 }
 
 h1 {
-  font-family: "Merriweather Sans", sans-serif !important;
+  font-family: 'Inconsolata', monospace;
 }
 
 h2,
@@ -51,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Hind Madurai", sans-serif !important;
+  font-family: 'Inconsolata', monospace;
 }
 
 p {
@@ -123,7 +124,6 @@ p > em > a:hover {
 .post-title {
   margin-top: 35px;
   font-weight: 600;
-  font-family: "Hind Madurai", sans-serif !important;
 }
 
 .post-subitems {
@@ -181,9 +181,6 @@ p > em > a:hover {
 /* color of clickable header */
 .headerurl {
   text-decoration: none;
-  text-align: center;
-  display: block;
-  font-size: 3em !important;
   position: relative;
   color: var(--url-color) !important;
 }
@@ -220,7 +217,6 @@ img.logo {
 }
 
 .navbar-brand {
-  font-size: 1.5em !important;
   margin-left: 5px;
   margin-right: 15px;
 }
@@ -294,7 +290,6 @@ img.logo {
 .tag-title {
 	font-size: 2.5em;
 	text-transform: uppercase;
-	font-family: "Hind Madurai", sans-serif !important;
 	text-shadow: none;
 	color: var(--text-color) !important;
 	padding: 10px;
@@ -304,7 +299,6 @@ img.logo {
 }
 
 .tag-description {
-	font-family: "Hind Madurai", sans-serif !important;
 	color: var(--text-color) !important;
 	font-size: 1rem;
 }
@@ -508,25 +502,21 @@ POST/ARTICLE HEADERS
 
 .post-content h1 {
   font-size: 210%;
-  font-family: "Hind Madurai", sans-serif !important;
   margin-top: 35px;
 }
 
 .post-content h2 {
   font-size: 180%;
-  font-family: "Hind Madurai", sans-serif !important;
   margin-top: 35px;
 }
 
 .post-content h3 {
   font-size: 165%;
-  font-family: "Hind Madurai", sans-serif !important;
   margin-top: 35px;
 }
 
 .post-content h4 {
   font-size: 140%;
-  font-family: "Hind Madurai", sans-serif !important;
   margin-top: 35px;
 }
 
@@ -689,7 +679,6 @@ iframe {
 
 .author_wrap p {
   color: var(--text-color);
-  font-family: "Hind Madurai", sans-serif !important;
   font-weight: 700;
   font-size: 125%;
 }
@@ -735,7 +724,6 @@ iframe {
   padding: 10px;
   text-transform: uppercase;
   z-index: 10;
-  font-family: "Hind Madurai", sans-serif !important;
 }
 
 .tagslist {
