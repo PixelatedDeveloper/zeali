@@ -5,9 +5,9 @@
       <div class="col col-xs-12 col-md-12 col-lg-12 main-content">
         <article>
           <div class="post-head">
-                  <p><span class="start-mark">{{@site.title}}:~$</span> cd posts\ {{slug}}\</p>
+                  <p><span class="start-mark">{{@site.title}}:~$</span> cd posts\ {{#primary_tag}}{{name}}{{/primary_tag}}\</p>
                   <p><span class="start-mark">{{@site.title}}:~$</span> ls -l</p>
-                  <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> {{title}}.md</p>
+                  <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD H:mm"}}">{{date format="DD MMMM YYYY H:mm"}}</time> {{title}}.md</p>
                   <p><span class="start-mark">{{@site.title}}:~$</span> ./scripts/generate-html.sh '{{title}}.md'</p>
                   <h1 class="text-center post-title">{{title}}</h1>
           </div>
@@ -21,7 +21,6 @@
           <div class="post-content max-content-width">
             {{content}}
           </div>
-            {{> 'post/related-posts'}}
         </article>
     </div>
 {{/post}}
