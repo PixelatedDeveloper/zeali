@@ -1,6 +1,5 @@
-# zeal
-
-A [Ghost](http://github.com/tryghost/ghost/) theme. 
+# Zeali
+Zeali aka Zea-L-I, the CLI theme for [Ghost](http://github.com/tryghost/ghost/) theme. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -8,15 +7,15 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Translation support!
 - Custom tag, author and error page designs.
 
-![zeal - homepage](https://github.com/pixelateddeveloper/zeal/raw/master/assets/screenshot-desktop.png)
-![zeal - post page](https://github.com/pixelateddeveloper/zeal/raw/master/assets/screenshot2-desktop.png)
+![zeal - homepage](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot-desktop.png)
+![zeal - post page](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot2-desktop.png)
 
 # Base
-Zeal uses the following libraries;
+Zeali uses the following libraries;
 - Font Awesome 5
 
 # Theme requirements
-- Zeal **requires** Ghost version **3.0** or higher to install and work as intended. 
+- Zeali **requires** Ghost version **3.0** or higher to install and work as intended. 
 - For the full featureset (although it's likely on by default if you run the latest version) enable Ghost API in the Ghost settings panel -> Labs -> Ghost API.
 
 # Use

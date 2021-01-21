@@ -1,6 +1,6 @@
 {
-  "name": "zeal",
-  "description": "Zeal is a cli-like theme",
+  "name": "zeali",
+  "description": "Zeali is a cli-like theme",
   "version": "1.0.0",
   "engines": {
       "ghost": ">=3.0",
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixelateddeveloper/zeal.git"
+    "url": "https://github.com/pixelateddeveloper/zeali.git"
   },
-  "bugs": "https://github.com/pixelateddeveloper/zeal/issues",
+  "bugs": "https://github.com/pixelateddeveloper/zeali/issues",
   "config": {
       "posts_per_page": 20
   },
