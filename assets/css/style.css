@@ -154,6 +154,10 @@ p > em > a:hover {
 
 *****************************************/
 
+header {
+  padding: 5px;
+}
+
 .logo-nav {
   height: 55px;
   max-width: 150px;
@@ -167,128 +171,17 @@ p > em > a:hover {
   font-weight: 600;
 }
 
-.nav-item {
-  padding: 10px;
-  font-weight: 600;
-}
-
-.nav-link:hover {
-  color: var(--accentcolor) !important;
-  text-shadow: none;
-}
-
-img.cover {
-  width: 100%;
-  max-height: 250px;
-  margin-bottom: 15px;
-}
-
-img.logo {
-  height: auto;
-  max-height: 85px;
-  position: relative;
-  margin-left: 5px;
-  margin-right: 5px;
-  max-width: 100%;
-  width: auto;
-}
-
-.navbar .dropdown-menu li {
-  width: 100%;
-  margin-left: 0 !important;
-}
-
-.nav-link {
-  color: var(--url-color) !important;
-}
-
-.nav-seperator {
-	display: flex;
-	margin: 0 15px;
-	width: 1px;
-	height: 100%;
-}
-
-.top-socials {
-  position: relative;
-  z-index: 9999;
-  text-align: center;
-  display: block;
-}
-
-.top-socials a i {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.top-div {
-  color: var(--text-color);
-  width: 100%;
-}
-
-.top-div > .intro-text {
-  text-align: center;
-  font-size: 1.2em;
-  width: 100%;
-}
-
-/* **************************************
-
-  FEATURED POSTS
-
-*****************************************/
-.tag {
-  background: rgba(5, 108, 23, 0.85);
-  position: absolute;
-  right: 30px;
-  top: 20px;
-  padding: 5px;
-  border-radius: 10px;
-  z-index: 10;
-  font-size: 11px;
-}
-
-.tag a {
-  color: white !important;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.tag a:hover {
-	text-decoration: none;
-}
-
-.tag-image {
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-}
-
-.tag-title {
-	font-size: 2.5em;
-	text-transform: uppercase;
-	text-shadow: none;
-	color: var(--text-color) !important;
-	padding: 10px;
-	font-weight: 600;
-	margin-top: 15px;
-	margin-bottom: 0;
-}
-
-.tag-description {
-	color: var(--text-color) !important;
-	font-size: 1rem;
-}
-
-.featured-title {
-  font-weight: bold;
-}
-
 /* **************************************
 
   CONTENT MAIN
 
 *****************************************/
+.home-template,
+.post-template,
+.page-template {
+  padding: 5px;
+}
+
 
 .row-item-image {
   display: block; /*for the img inside your div */
@@ -1117,18 +1010,6 @@ ul {
   .headerurl,
   .nav-link {
     text-shadow: none;
-  }
-
-  .navbar {
-    margin-bottom: 0;
-  }
-
-  .navbar-brand {
-    color: white !important;
-  }
-
-  .navbar-brand:hover {
-    color: white;
   }
 
   h1 {
