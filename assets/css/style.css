@@ -70,14 +70,8 @@ p > em > a {
   text-decoration: underline;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid var(--border-color) !important;
-  margin-top: 0 !important;
-  margin-bottom: 0px !important;
-  width: 100%;
+img {
+  display: none;
 }
 
 pre {
