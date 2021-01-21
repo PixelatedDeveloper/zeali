@@ -3,20 +3,14 @@ Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/).
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
-- Set social media links through Ghost settings panel (they will show in the footer)
 - Translation support!
 - Custom tag, author and error page designs.
 
 ![zeali - homepage](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot-desktop.png)
 ![zeali - post page](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot2-desktop.png)
 
-# Base
-Zeali uses the following libraries;
-- Font Awesome 5
-
 # Theme requirements
 - Zeali **requires** Ghost version **3.0** or higher to install and work as intended. 
-- For the full featureset (although it's likely on by default if you run the latest version) enable Ghost API in the Ghost settings panel -> Labs -> Ghost API.
 
 # Use
 - Download the package from the releases page
