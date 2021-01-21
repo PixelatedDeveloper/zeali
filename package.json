@@ -22,7 +22,7 @@
   },
   "bugs": "https://github.com/pixelateddeveloper/zeal/issues",
   "config": {
-      "posts_per_page": 6
+      "posts_per_page": 20
   },
   "keywords": [
     "ghost-theme",
