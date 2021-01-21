@@ -5,11 +5,11 @@
       <div class="col col-xs-12 col-md-12 col-lg-12 main-content">
         <article>
           <div class="post-head">
-                <h1 class="text-center post-title">{{title}}</h1>
-                  <p>{{@site.title}}:~$ cd posts\{{slug}}\</p><br />
-                  <p>{{@site.title}}:~$ ls -l</p><br />
-                  <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> {{title}}.ext</p><br />
-                  <p>{{@site.title}}:~$ ./{{title}}.ext</p>
+                  <p><span class="start-mark">{{@site.title}}:~$</span> cd posts\ {{slug}}\</p>
+                  <p><span class="start-mark">{{@site.title}}:~$</span> ls -l</p>
+                  <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> {{title}}.md</p>
+                  <p><span class="start-mark">{{@site.title}}:~$</span> ./generate-html.sh {{title}}</p>
+                  <h1 class="text-center post-title">{{title}}</h1>
           </div>
 
          <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
@@ -20,19 +20,7 @@
 
           <div class="post-content max-content-width">
             {{content}}
-
-              <div class="post-tags-wrapper">
-              {{#if tags}}
-                <div class="tagslist">
-                  {{#foreach tags}}
-                      <a href="{{@site.url}}/tag/{{slug}}">#{{name}}</a>
-                    {{/foreach}}
-              </div>
-              {{/if}}<!-- end tags if -->
-              </div><!-- end cat links -->
           </div>
-            {{> 'post/author-section'}}
-
             {{> 'post/related-posts'}}
         </article>
     </div>

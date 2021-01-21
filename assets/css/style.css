@@ -57,7 +57,6 @@ h6 {
 }
 
 p {
-  margin: 0 0 1.66667em;
   color: var(--text-color);
 }
 
@@ -87,15 +86,17 @@ pre {
   padding-right: 5%;
 }
 
+code {
+  color: var(--text-color);
+  font-family: 'Inconsolata', monospace !important;
+}
+
 blockquote {
   display: table;
   position: relative;
   padding: 25px;
-  background-color: whitesmoke;
-  border: 2px solid var(--grey-accent2) !important;
-  width: 100%;
   text-align: center;
-  font-size: 110%;
+  color: var(--text-color);
 }
 
 blockquote > p {
@@ -126,6 +127,16 @@ p > em > a:hover {
 .post-head {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.start-mark {
+  color: var(--accentcolor);
+  font-weight: 600;
+}
+
+.folder-color {
+  color: #3465A4;
+  font-weight: 600;
 }
 
 .post-title {
@@ -969,7 +980,6 @@ img.avatar {
 
 *****************************************/
 footer {
-  padding: 15px;
   margin-left: auto;
   margin-right: auto;
   color: var(--text-color);
