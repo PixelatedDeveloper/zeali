@@ -8,10 +8,10 @@
 	--grey-accent: #aaa;
 	--grey-accent2: #ebebeb;
 
-	--text-color: #000;
-	--url-color: #000;
-	--url-hover-color: #767b8d;
-	--h-accent: #2f313d;
+	--text-color: #aaa;
+	--url-color: #aaa;
+	--url-hover-color: #49B9C7;
+	--h-accent: #979797;
 
 	--border-color: #ededed;
 
@@ -57,6 +57,12 @@ h6 {
 
 p {
   margin: 0 0 1.66667em;
+  color: var(--text-color);
+}
+
+li,
+ol {
+  color: var(--text-color);
 }
 
 p > a,
@@ -307,16 +313,11 @@ img.logo {
   CONTENT MAIN
 
 *****************************************/
-.left-content,
-.right-content {
-  background: white;
-}
 
 .row-item-image {
   display: block; /*for the img inside your div */
   margin-left: auto;
   margin-right: auto;
-  background: white;
   border: 2px solid var(--grey-accent2);
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
@@ -363,7 +364,6 @@ POST/ARTICLE CARD UI - main
 
 .theme-row-top {
   margin-top: 35px;
-  background: white;
 }
 
 .card-title {
@@ -420,15 +420,6 @@ POST/ARTICLE CARD UI - main
   text-overflow: ellipsis;
   overflow: hidden;
   margin-bottom: 20px !important;
-}
-
-.page-row {
-	width: 100%;
-	margin-left: auto !important;
-	margin-right: auto !important;
-	margin-top: 0;
-	background: white;
-	position: relative;
 }
 
 .post-item-main > a {
@@ -491,9 +482,6 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-.post-template {
-  background: white;
-}
 
 .post-content h1 {
   font-size: 210%;
@@ -846,7 +834,6 @@ img.avatar {
 .avatar-page-author {
   padding: 2px;
   margin-bottom: 8px;
-  background: white;
 }
 
 .socialauthor {
@@ -1102,11 +1089,7 @@ ul {
 /* mobile devices */
 
 @media (max-width: 767px) and (min-width: 576px) {
-  .navbar-collapse .navbar-nav .menu-item {
-    background: white;
-  }
-
-  .navbar-collapse .navbar-nav .menu-item a {
+ .navbar-collapse .navbar-nav .menu-item a {
     font-size: 2em;
     text-transform: uppercase;
   }
@@ -1319,7 +1302,6 @@ footer div a .fa-rss-square:hover {
 .fa-twitter-author,
 .fa-facebook-author {
   color: black;
-  background: white;
   border-radius: 15px;
 }
 
@@ -1385,6 +1367,6 @@ ANIMATIONS
     color: transparent;
   }
   50% {
-    color: black;
+    color: #49B9C7;
   }
 }
