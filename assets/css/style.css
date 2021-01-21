@@ -176,6 +176,7 @@ header {
 .home-template,
 .post-template,
 .page-template,
+.tag-template,
 .error-row {
   padding: 5px;
 }
