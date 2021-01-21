@@ -1003,10 +1003,6 @@ ul {
     font-size: 180% !important;
   }
 
-  .page-row {
-    margin-top: 0;
-  }
-
   .headerurl,
   .nav-link {
     text-shadow: none;
@@ -1019,10 +1015,6 @@ ul {
   .content-images,
   .content-images-individual {
     object-fit: cover;
-  }
-
-  .main-content {
-    margin-top: 30px;
   }
 
   .avatar-page-author {
