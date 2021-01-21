@@ -175,7 +175,9 @@ header {
 *****************************************/
 .home-template,
 .post-template,
-.page-template {
+.page-template,
+.tag-template,
+.error-row {
   padding: 5px;
 }
 
@@ -782,6 +784,7 @@ footer {
   font-weight: bold;
   display: flex !important;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .theme-name-footer p {
@@ -856,11 +859,6 @@ ul {
     text-align: center;
   }
 
-  .page-row {
-    margin-top: 0;
-    max-width: 100vw;
-  }
-
   iframe {
     padding: 15px;
   }
@@ -894,10 +892,6 @@ ul {
 
   .logo-nav {
     margin-left: 10px;
-  }
-
-  .page-row {
-    margin-top: 0;
   }
 
   .headerurl,
