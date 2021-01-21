@@ -228,12 +228,6 @@ POST/ARTICLE CARD UI - main
 
 ##########################################*/
 
-.card {
-  margin-left: auto;
-  margin-right: auto;
-  border: 0 !important;
-}
-
 .theme-row-top {
   margin-top: 35px;
 }
