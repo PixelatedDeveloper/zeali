@@ -8,15 +8,12 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Translation support!
 - Custom tag, author and error page designs.
 
-![zeal screenshot 1](https://github.com/pixelateddeveloper/zeal/raw/master/assets/screenshot-desktop.png)
-![zeal screenshot 2](https://github.com/pixelateddeveloper/zeal/raw/master/assets/screenshot2-desktop.png)
+![zeal - homepage](https://github.com/pixelateddeveloper/zeal/raw/master/assets/screenshot-desktop.png)
+![zeal - post page](https://github.com/pixelateddeveloper/zeal/raw/master/assets/screenshot2-desktop.png)
 
 # Base
-zeal uses the following libraries;
-- Bootstrap 4
-- JQuery (3.1.x)
+Zeal uses the following libraries;
 - Font Awesome 5
-- Webfontloader 1.6.28
 
 # Theme requirements
 - Zeal **requires** Ghost version **3.0** or higher to install and work as intended. 
