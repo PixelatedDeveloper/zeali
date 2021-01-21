@@ -6,10 +6,10 @@
         <article>
           <div class="post-head">
                 <h1 class="text-center post-title">{{title}}</h1>
-                <div class="post-subitems post-options text-center">
-                  <i class="fas fa-clock"></i><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
-                  <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
-                </div>
+                  <p>{{@site.title}}:~$ cd posts\{{slug}}\</p><br />
+                  <p>{{@site.title}}:~$ ls -l</p><br />
+                  <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time> {{title}}.ext</p><br />
+                  <p>{{@site.title}}:~$ ./{{title}}.ext</p>
           </div>
 
          <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
