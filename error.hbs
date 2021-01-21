@@ -1,16 +1,7 @@
 {{!< default}}
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="row page-row">
-
-      <div class="tag_head_wrap">
-        <div class="tag_heading text-center">
-          <p><span class="start-mark">{{@site.title}}:~$</span> {{t "No such file or directory"}}</p>
-          <p class="card-text">
-          <pre>{{statusCode}} — {{message}}</pre>
-          {{t "This post/page doesn't exist anymore or has been made unavailable."}}</p>
-          <div class="card-actions-bottom">
-            <a class="post-options-url" href="/">{{t "Return to the homepage"}}</a>
-          </div>    
-        </div>
-      </div>
+<div class="row error-row">
+  <div class="text-center">
+    <p><span class="start-mark">{{@site.title}}:~$</span> {{t "No such file or directory"}}</p>
+  </div>
 </div>

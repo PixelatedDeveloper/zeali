@@ -856,11 +856,6 @@ ul {
     text-align: center;
   }
 
-  .page-row {
-    margin-top: 0;
-    max-width: 100vw;
-  }
-
   iframe {
     padding: 15px;
   }
@@ -894,10 +889,6 @@ ul {
 
   .logo-nav {
     margin-left: 10px;
-  }
-
-  .page-row {
-    margin-top: 0;
   }
 
   .headerurl,
