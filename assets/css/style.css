@@ -783,6 +783,7 @@ footer {
   font-weight: bold;
   display: flex !important;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .theme-name-footer p {
