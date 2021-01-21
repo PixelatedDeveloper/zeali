@@ -22,6 +22,24 @@
   <main class="{{body_class}}">
     <div class="container-fluid">
       <div class="row">
+         {{#is "home,index"}}
+          <p><span class="start-mark">{{@site.title}}:~</span> cd index</p>
+          <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/index</span> ls -l</p>
+        {{/is}}
+
+        {{#is "author"}}
+          {{#author}}
+          <p><span class="start-mark">{{@site.title}}:~$</span> cd author/{{name}}</p>
+          <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/author/{{name}}</span> ls -l</p>
+          {{/author}}
+        {{/is}}
+
+        {{#is "tag"}}
+          {{#tag}}
+          <p><span class="start-mark">{{@site.title}}:~$</span> cd tags/{{slug}}</p>
+          <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/tags/{{slug}}</span> ls -l</p>
+          {{/tag}}
+        {{/is}}
 
         {{{body}}}
 
