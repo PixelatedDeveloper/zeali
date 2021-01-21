@@ -929,7 +929,7 @@ footer {
 }
 
 .theme-name-footer p a:hover {
-	color: #000 !important;
+	color: var(--accentcolor) !important;
 	text-decoration: none;
 }
 
