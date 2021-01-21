@@ -1,5 +1,5 @@
 # Zeali
-Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/) theme. 
+Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/). 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -7,8 +7,8 @@ Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/) theme.
 - Translation support!
 - Custom tag, author and error page designs.
 
-![zeal - homepage](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot-desktop.png)
-![zeal - post page](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot2-desktop.png)
+![zeali - homepage](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot-desktop.png)
+![zeali - post page](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot2-desktop.png)
 
 # Base
 Zeali uses the following libraries;
