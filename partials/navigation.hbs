@@ -2,16 +2,7 @@
 <div class="navbar navbar-expand-lg navbar-light justify-content-start">
 	<div class="top-div">
 		<nav class="navbar navbar-expand-sm navbar-light" >
-		<a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}:~$</a>
-			<ul class="navbar-nav">      
-				<!-- Loop through the navigation items -->
-				{{#foreach navigation}}
-				<li class="nav-item{{#if current}} active{{/if}}">
-						<a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
-				</li>
-				{{/foreach}}
-				<!-- End the loop -->
-			</ul>
+		<a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}:~$<span class="blinking-cursor">|</span></a>
 		</div>
 	</nav>
 	</div>

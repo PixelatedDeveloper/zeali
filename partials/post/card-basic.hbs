@@ -1,27 +1,13 @@
 <div class="row">
+  {{#get "posts" limit="all"}}
   {{#foreach posts}}
-  <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
-      images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>
-
-  <div class="card max-content-width">
+  <div class="card">
     <div class="col">
       <div class="card-block">
         <h2 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
-        <p class="card-text">{{excerpt}}</p>
-      </div>
-      <hr />
-      <div class="post-options">
-        <a class="post-options-url" href="{{url}}"><i class="fas fa-play"></i>{{t "Read More"}}</a>
-        <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
-        <div class="post-author">
-        {{#foreach authors}}
-        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
-          class="homepage-avatar" alt="{{name}}" title="{{name}}">
-        <a href="{{url}}" title="{{t "Written by"}} {{name}}" class="author-name">{{name}}</a>
-        {{/foreach}}
-      </div>
       </div>
     </div>
   </div>
   {{/foreach}}
+  {{/get}}
 </div>
