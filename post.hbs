@@ -6,6 +6,7 @@
         <article>
           <div class="post-head">
                   <p><span class="start-mark">{{@site.title}}:~$</span> cd posts</p>
+                  <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/posts</span> ls -l</p>
                   <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD H:mm"}}">{{date format="DD MMMM YYYY H:mm"}}</time> {{title}}.md</p>
                   <p><span class="start-mark">{{@site.title}}:~$</span> ../scripts/generate-html.sh '{{title}}.md'</p>
                   <h1 class="text-center post-title">{{title}}</h1>
