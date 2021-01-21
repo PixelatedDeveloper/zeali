@@ -23,6 +23,27 @@
     <div class="container-fluid">
       <div class="row">
 
+        {{#is "home,index"}}
+          <p><span class="start-mark">{{@site.title}}:~</span> cd index</p>
+          <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/index</span> ls -l</p>
+        {{/is}}
+
+        {{#is "author"}}
+          {{#author}}
+          <p><span class="start-mark">{{@site.title}}:~$</span> cd author/{{name}}</p>
+          <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/author/{{name}}</span> ls -l</p>
+          <p>-rwx------ {{name}} {{name}} <time datetime="{{date format="YYYY-MM-DD H:mm"}}">{{date format="DD MMMM YYYY H:mm"}}</time>{{#post}}{{title}}{{/post}}.md</p>
+          {{/author}}
+        {{/is}}
+
+        {{#is "tag"}}
+          {{#tag}}
+          <p><span class="start-mark">{{@site.title}}:~$</span> cd tags/{{slug}}</p>
+          <p><span class="start-mark">{{@site.title}}:~</span><span class="folder-color">/tags/{{slug}}</span> ls -l</p>
+          <p>-rwx------ {{#primary_author}}{{name}} {{name}}{{/primary_author}} <time datetime="{{date format="YYYY-MM-DD H:mm"}}">{{date format="DD MMMM YYYY H:mm"}}</time>{{title}}.md</p>
+          {{/tag}}
+          {{/is}}
+
         {{{body}}}
 
       </div>
