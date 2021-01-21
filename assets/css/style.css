@@ -44,10 +44,7 @@ h6 {
   color: var(--h-accent);
 }
 
-h1 {
-  font-family: 'Inconsolata', monospace;
-}
-
+h1,
 h2,
 h3,
 h4,
@@ -351,26 +348,6 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-
-.post-content h1 {
-  font-size: 210%;
-  margin-top: 35px;
-}
-
-.post-content h2 {
-  font-size: 180%;
-  margin-top: 35px;
-}
-
-.post-content h3 {
-  font-size: 165%;
-  margin-top: 35px;
-}
-
-.post-content h4 {
-  font-size: 140%;
-  margin-top: 35px;
-}
 
 .post-content ul li {
   list-style-type: square !important;
@@ -859,23 +836,6 @@ ul {
     font-size: 135%;
   }
 
-  h1 {
-    font-size: 2rem !important;
-    margin-top: 0;
-  }
-
-  h2 {
-    font-size: 1.7rem !important;
-  }
-
-  h3 {
-    font-size: 1.4rem !important;
-  }
-
-  h4 {
-    font-size: 1.1rem !important;
-  }
-
   .h3-join-the-conversation {
     font-size: 1.6rem !important;
     font-weight: 300 !important;
@@ -961,10 +921,6 @@ ul {
 	  text-align: center;
   }
 
-  h1 {
-    font-size: 120%;
-  }
-
   .content-images,
   .content-images-individual {
     object-fit: cover;
@@ -1006,10 +962,6 @@ ul {
   .headerurl,
   .nav-link {
     text-shadow: none;
-  }
-
-  h1 {
-    font-size: 120%;
   }
 
   .content-images,

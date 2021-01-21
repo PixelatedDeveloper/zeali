@@ -1,7 +1,7 @@
 {
   "name": "zeal",
   "description": "Zeal is a cli-like theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
       "ghost": ">=3.0",
       "ghost-api": "v3"
