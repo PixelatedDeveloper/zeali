@@ -1,0 +1,21 @@
+{{#primary_author}}
+<section class="author-profile max-content-width">
+<div class="row">
+    <div class="col-12 col-md-2 flex-center-align">
+        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/> 
+    </div>
+    <div class="col-12 col-md-10 author-bio-text">
+      <h3>{{name}}</h3>
+      <div class="author-socials">
+          {{#if twitter}}<a href="https://twitter.com/{{twitter}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-twt" title="{{name}}'s Twitter"><i class="fab fa-twitter-square"></i>Twitter</a>{{/if}}
+          {{#if facebook}}<a href="https://facebook.com/{{facebook}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-fb" title="{{name}}'s Facebook"><i class="fab fa-facebook-square"></i>Facebook</a>{{/if}}
+      </div>
+      {{#if bio}}
+        {{bio}}
+      {{else}}
+        {{t "Whoops...that's not looking good. People have no idea who you are?!"}}
+      {{/if}}
+    </div>
+</div>
+</section>
+{{/primary_author}}

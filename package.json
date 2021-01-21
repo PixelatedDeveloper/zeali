@@ -1,0 +1,31 @@
+{
+  "name": "zeal",
+  "description": "Zeal is a cli-like theme",
+  "version": "0.0.1",
+  "engines": {
+      "ghost": ">=3.0",
+      "ghost-api": "v3"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.png",
+    "mobile": "assets/screenshot-mobile.png"
+  },
+  "author": {
+    "name": "PixelatedDeveloper",  
+    "email": "support@pixelateddeveloper.com",
+    "url": "https://pixelateddeveloper.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelateddeveloper/zeal.git"
+  },
+  "bugs": "https://github.com/pixelateddeveloper/zeal/issues",
+  "config": {
+      "posts_per_page": 6
+  },
+  "keywords": [
+    "ghost-theme",
+    "blog"
+  ]
+}

@@ -1,0 +1,19 @@
+<nav aria-label="Page navigation">
+    <div class="pagination d-flex justify-content-center flex-center-align">
+        {{#if prev}}
+    <div>
+      <a href="{{page_url prev}}" aria-label="Previous">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+        {{/if}}
+    <div class="active">{{page}}</div>
+        {{#if next}}
+    <div>
+      <a href="{{page_url next}}" aria-label="Next">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+     {{/if}}
+  </div>
+</nav>
