@@ -124,11 +124,6 @@ p > em > a:hover {
   margin-right: auto;
 }
 
-.post-head {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .start-mark {
   color: var(--accentcolor);
   font-weight: 600;
@@ -173,10 +168,6 @@ p > em > a:hover {
   SPECIFIC RESTRICTIONS TO GUI
 
 *****************************************/
-
-.main-content {
-  margin-top: 10px;
-}
 
 .max-content-width {
 	max-width: 720px;
@@ -530,14 +521,6 @@ POST/ARTICLE HEADERS
 
 .post-content a {
   color: var(--url-color);
-}
-
-article {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  padding-top: 15px;
-  word-wrap: break-word;
 }
 
 .content-images-featured {
