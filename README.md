@@ -1,5 +1,5 @@
 # Zeali
-Zeali aka Zea-L-I, the CLI theme for [Ghost](http://github.com/tryghost/ghost/) theme. 
+Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/) theme. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
