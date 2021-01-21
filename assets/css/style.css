@@ -112,6 +112,7 @@ p > em > a:hover {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
 }
 
 .start-mark {
