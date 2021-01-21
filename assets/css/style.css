@@ -70,10 +70,6 @@ p > em > a {
   text-decoration: underline;
 }
 
-img {
-  display: none;
-}
-
 pre {
   line-height: 30px;
   padding-left: 5%;
@@ -934,7 +930,7 @@ footer {
 }
 
 footer .row a {
-  color: #979797 !important;
+  color: var(--url-color) !important;
 }
 
 footer ul li p {
