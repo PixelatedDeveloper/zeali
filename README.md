@@ -16,8 +16,3 @@ Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/).
 - Go to your Ghost-panel and to the Design-tab
 - Upload the theme .zip
 - Activate the theme
-
-# Customization
-
-## Google Analytics
-To use Google Analytics, please parse the analytics code through Ghost's dashboard -> 'code injection'.
