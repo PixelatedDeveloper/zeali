@@ -9,7 +9,7 @@ Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/).
 ![zeali - homepage](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot-desktop.png)
 
 # Theme requirements
-- Zeali **requires** Ghost version **3.0** or higher to install and work as intended. 
+- Zeali **is tested from** Ghost version **3.38** or higher to install and work as intended. 
 
 # Use
 - Download the package from the releases page
