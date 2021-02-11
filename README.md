@@ -7,7 +7,6 @@ Zeali, the CLI theme for [Ghost](http://github.com/tryghost/ghost/).
 - Custom tag, author and error page designs.
 
 ![zeali - homepage](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot-desktop.png)
-![zeali - post page](https://github.com/pixelateddeveloper/zeali/raw/master/assets/screenshot2-desktop.png)
 
 # Theme requirements
 - Zeali **requires** Ghost version **3.0** or higher to install and work as intended. 
