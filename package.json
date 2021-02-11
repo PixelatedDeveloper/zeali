@@ -3,7 +3,7 @@
   "description": "Zeali is a cli-like theme",
   "version": "1.0.0",
   "engines": {
-      "ghost": ">=3.0",
+      "ghost": ">=3.38",
       "ghost-api": "v3"
   },
   "license": "MIT",
